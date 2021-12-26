@@ -14,7 +14,8 @@ void format_input(){
             num1+=input.at(i);
         }
         else{
-            oper1+=input.at(i);
+            oper1=input.at(i);
+            actual_num_1=num1;
         }
     }
     cout<<num1<<endl;
