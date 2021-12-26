@@ -45,8 +45,10 @@ void output_printer(){
   
 int main()
 {
+    cout<<"Give the INPUT"<<endl;
     user_input();
     format_input();
+    cout<<"The RESULT is: "
     output_printer();
     return 0;
 }
