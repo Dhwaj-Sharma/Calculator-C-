@@ -1,7 +1,8 @@
 #include<iostream>
 #include<string>
 using namespace std;
-string input;
+string input, num1;
+
 
 void user_input(){
     cin>>input;
@@ -10,6 +11,8 @@ void format_input(){
     for(int i=0; i<input.length(); i++){
         if(isdigit(input.at(i))){
             cout<<"yes";
+            num1=input.at(i);
+            cout<<num1;
         }
     
     }
