@@ -19,10 +19,16 @@ void format_input(){
             num1="";
         }
     }
-    cout<<num1<<endl;
-    cout<<oper1<<endl;
-    cout<<actual_num_1;
+    // cout<<num1<<endl;
+    // cout<<oper1<<endl;
+    // cout<<actual_num_1;
     
+}
+
+void output_printer(){
+    if(oper1=="+"){
+        cout<<num1+actual_num_1;
+    }
 }
   
 int main()
