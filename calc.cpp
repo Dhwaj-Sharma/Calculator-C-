@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-string input, num1;
+string input, num1, oper;
 
 
 void user_input(){
@@ -14,7 +14,7 @@ void format_input(){
             num1+=input.at(i);
         }
         else{
-            
+            oper=input.at(i);
         }
     }
     cout<<num1<<endl;
