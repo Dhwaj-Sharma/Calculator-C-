@@ -6,7 +6,7 @@ string input;
 void user_input(){
     cin>>input;
 }
-void format_intput(){
+void format_input(){
     for(int i=0; i<input.length(); i++){
         if(int(input.at(i)).isdigit()){
             cout<<"yes";
