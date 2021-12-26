@@ -4,6 +4,7 @@ using namespace std;
 string input;
 
 void user_input(){
+  cin>>input;
 }
 int main()
 {
