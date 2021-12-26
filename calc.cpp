@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-string input:
+string input;
 
 void user_input(){
 }
