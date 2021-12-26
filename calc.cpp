@@ -4,12 +4,15 @@ using namespace std;
 string input;
 
 void user_input(){
-  cin>>input;
+    cin>>input;
 }
 void format_intput(){
-  for(int i=0; i<input.length() ;i++){
+    for(int i=0; i<input.length(); i++){
+    if(input.at(i)){
+        
+    }
     
-  }
+    }
 }
   
 int main()
