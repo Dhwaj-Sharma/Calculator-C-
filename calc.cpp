@@ -16,10 +16,13 @@ void format_input(){
         else{
             oper1=input.at(i);
             actual_num_1=num1;
+            num1="";
         }
     }
     cout<<num1<<endl;
-    cout<<oper<<endl;
+    cout<<oper1<<endl;
+    cout<<actual_num_1;
+    
 }
   
 int main()
