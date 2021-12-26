@@ -33,13 +33,13 @@ void output_printer(){
         cout<<number1+actual_number_1<<endl;
     }
     else if(oper1=="-"){
-        cout<<number1-actual_number_1<<endl;
+        cout<<actual_number_1-number1<<endl;
     }
     else if(oper1=="*"){
         cout<<number1*actual_number_1<<endl;
     }
     else if(oper1=="/"){
-        cout<<number1/actual_number_1<<endl;
+        cout<<actual_number_1/number1<<endl;
     }
 }
   
@@ -50,5 +50,4 @@ int main()
     output_printer();
     return 0;
 }
-/*if(oper1=="whatever")
-num1 whatever actual_num_1*/
+
