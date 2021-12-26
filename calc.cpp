@@ -8,9 +8,9 @@ void user_input(){
 }
 void format_intput(){
     for(int i=0; i<input.length(); i++){
-    if(input.at(i)){
+        if(input.at(i)){
         
-    }
+        }
     
     }
 }
