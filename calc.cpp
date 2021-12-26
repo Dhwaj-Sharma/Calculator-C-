@@ -9,7 +9,7 @@ void user_input(){
 void format_intput(){
     for(int i=0; i<input.length(); i++){
         if(int(input.at(i)).isdigit()){
-        
+            cout<<"yes";
         }
     
     }
@@ -17,5 +17,7 @@ void format_intput(){
   
 int main()
 {
-return 0;
+    user_input();
+    format_input();
+    return 0;
 }
