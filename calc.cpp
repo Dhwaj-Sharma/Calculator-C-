@@ -30,7 +30,7 @@ void output_printer(){
     number1 = stoi(num1);
     actual_number_1 = stoi(actual_num_1);
     if(oper1=="+"){
-        cout<<num1+actual_num_1<<endl;
+        cout<<number1+actual_number_1<<endl;
     }
 }
   
