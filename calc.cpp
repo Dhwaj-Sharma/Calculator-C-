@@ -31,3 +31,5 @@ int main()
     format_input();
     return 0;
 }
+/*if(oper1=="whatever")
+num1 whatever actual_num_1*/
