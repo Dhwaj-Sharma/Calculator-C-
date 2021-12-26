@@ -52,4 +52,4 @@ int main()
     output_printer();
     return 0;
 }
-
+/*LOOP kar*/
