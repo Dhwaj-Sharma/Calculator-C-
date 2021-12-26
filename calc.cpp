@@ -27,7 +27,7 @@ void format_input(){
 
 void output_printer(){
     if(oper1=="+"){
-        cout<<num1+actual_num_1;
+        cout<<num1+actual_num_1<<endl;
     }
 }
   
@@ -35,6 +35,7 @@ int main()
 {
     user_input();
     format_input();
+    output_printer();
     return 0;
 }
 /*if(oper1=="whatever")
