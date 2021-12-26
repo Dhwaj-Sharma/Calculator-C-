@@ -14,10 +14,6 @@ void format_input(){
             num1+=input.at(i);
         }
         else{
-            if(oper1){
-                
-            }
-            
             oper1=input.at(i);
             actual_num_1=num1;
             num1="";
