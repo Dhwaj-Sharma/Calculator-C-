@@ -1,9 +1,10 @@
 #include<iostream>
+#include<string>
 using namespace std;
-void user_input()
-{
-  
-  cin>>
+string input:
+
+void user_input(){
+}
 int main()
 {
 return 0;
