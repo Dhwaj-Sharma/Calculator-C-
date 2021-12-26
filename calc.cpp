@@ -10,12 +10,15 @@ void user_input(){
 void format_input(){
     for(int i=0; i<input.length(); i++){
         if(isdigit(input.at(i))){
-            cout<<"yes";
-            num1=input.at(i);
-            cout<<num1;
+            // cout<<"yes";
+            num1+=input.at(i);
         }
-    
+        else{
+            
+        }
     }
+    cout<<num1<<endl;
+
 }
   
 int main()
