@@ -31,6 +31,12 @@ void output_printer(){
     actual_number_1 = stoi(actual_num_1);
     if(oper1=="+"){
         cout<<number1+actual_number_1<<endl;
+    else if(oper1=="-"){
+        cout<<number1-actual_number_1<<endl;
+    else if(oper1=="*"){
+        cout<<number1*actual_number_1<<endl;
+    else if(oper1=="/"){
+        cout<<number1/actual_number_1<<endl;
     }
 }
   
