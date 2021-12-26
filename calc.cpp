@@ -14,11 +14,11 @@ void format_input(){
             num1+=input.at(i);
         }
         else{
-            oper=input.at(i);
+            oper+=input.at(i);
         }
     }
     cout<<num1<<endl;
-
+    cout<<oper<<endl;
 }
   
 int main()
