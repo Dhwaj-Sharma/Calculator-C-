@@ -8,7 +8,7 @@ void user_input(){
 }
 void format_input(){
     for(int i=0; i<input.length(); i++){
-        if(isdigit(input.at(i)==true){
+        if(isdigit(input.at(i)==true)){
             cout<<"yes";
         }
     
