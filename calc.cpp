@@ -2,6 +2,7 @@
 #include<string>
 using namespace std;
 string input, num1, oper1, oper2, actual_num_1, actual_num_2;
+int number1, actual_number_1;
 
 
 void user_input(){
@@ -26,6 +27,8 @@ void format_input(){
 }
 
 void output_printer(){
+    number1 = stoi(num1);
+    actual_number_1 = stoi(actual_num_1);
     if(oper1=="+"){
         cout<<num1+actual_num_1<<endl;
     }
